@@ -1,0 +1,28 @@
+{
+    "Info": {
+        "ros": "foxy",
+        "platform": [
+            "ROScube-I",
+            "ROScube-X",
+            "ROScube-starterkit"
+        ]
+    },
+    "Dependency": {
+        "cmd": [
+            "vcs import src < neuron-app.repos",
+            "touch src/neuronbot2/neuronbot2_slam/COLCON_IGNORE",
+            "rosdep update",
+            "rosdep install --from-paths src --ignore-src -r -y --rosdistro foxy"
+        ]
+    },
+    "Run": {
+        "cmd": {
+            "gazebo": "ros2 launch napp_inspection gazebo_inspection.launch.py",
+            "neuronbot": "ros2 launch napp_inspection neuronbot_inspection.launch.py"
+        }
+    },
+    "Environment": {
+        "hook": [
+        ]
+    }
+}
