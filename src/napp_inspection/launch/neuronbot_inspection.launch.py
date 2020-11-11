@@ -27,6 +27,14 @@ def generate_launch_description():
                               'map': map_path}.items()),
     ])
 
+    image_saver = Node(
+        package='image_view',
+        executable='image_saver',
+        parameters=[{'image': 'ros2_openvino_toolkit/image_rviz'}],
+        output='screen'
+    )
+
     ld = LaunchDescription()
     ld.add_action(neuron_app_bringup)
+    ld.add_action(image_saver)
     return ld
