@@ -18,7 +18,8 @@
     "Run": {
         "cmd": {
             "gazebo": "ros2 launch napp_inspection gazebo_inspection.launch.py",
-            "neuronbot": "ros2 launch napp_inspection neuronbot_inspection.launch.py"
+            "neuronbot": "ros2 launch napp_inspection neuronbot_inspection.launch.py",
+            "bt": "ros2 launch bt_ros2 bt_ros2.launch.py"
         }
     },
     "Environment": {

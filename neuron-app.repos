@@ -14,4 +14,4 @@ repositories:
   BT_ros2:
     type: git
     url: https://github.com/Adlink-ROS/BT_ros2.git
-    version: 5f446c5e8dcac18484cc399932469508d12d9e93
+    version: d191ff6660ce8ce1b17689a1d934abdce815b45f
