@@ -21,12 +21,14 @@ def generate_launch_description():
     world_model = LaunchConfiguration('world_model', default='mememan_world.model')
     ## mememan.yaml / phenix.yaml
     map_path = LaunchConfiguration('map', default=nb2nav_map_dir+'/mememan.yaml')
+    use_camera = LaunchConfiguration('use_camera', default='top')
 
     neuron_app_bringup = GroupAction([
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(os.path.join(gazebo_launch_dir, 'neuronbot2_world.launch.py')),
             launch_arguments={'use_sim_time': use_sim_time,
-                              'world_model': world_model}.items()),
+                              'world_model': world_model,
+                              'use_camera': use_camera}.items()),
 
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(os.path.join(nb2nav_launch_dir, 'bringup_launch.py')),
