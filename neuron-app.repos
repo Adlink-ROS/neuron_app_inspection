@@ -15,3 +15,7 @@ repositories:
     type: git
     url: https://github.com/Adlink-ROS/BT_ros2.git
     version: d191ff6660ce8ce1b17689a1d934abdce815b45f
+  image_pipeline:
+    type: git
+    url: https://github.com/Adlink-ROS/image_pipeline.git
+    version: ros2

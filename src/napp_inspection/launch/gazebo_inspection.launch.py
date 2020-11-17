@@ -40,7 +40,8 @@ def generate_launch_description():
     image_saver = Node(
         package='image_view',
         executable='image_saver',
-        parameters=[{'image': 'ros2_openvino_toolkit/image_rviz'}],
+        remappings=[('image', 'rgb_camera/image_raw')],
+        parameters=[{'save_all_image': False}],
         output='screen'
     )
 
