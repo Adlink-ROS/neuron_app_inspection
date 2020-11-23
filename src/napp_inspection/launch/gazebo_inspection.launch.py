@@ -41,7 +41,10 @@ def generate_launch_description():
         package='image_view',
         executable='image_saver',
         remappings=[('image', 'rgb_camera/image_raw')],
-        parameters=[{'save_all_image': False}],
+        parameters=[{
+            'use_sim_time': True,
+            'save_all_image': False
+            }],
         output='screen'
     )
 
