@@ -12,10 +12,10 @@
 # Usage
 
 1. Launch Navigation as well as Rviz with the Gazebo simulation.
-  ```
+    ```
     ros2 launch napp_inspection gazebo_inspection.launch.py
-  ```
+    ```
 2. Launch Behavior Tree and camera snapshot.
-  ```
+    ```
     ros2 launch napp_inspection bt_inspection_snapshot.launch.py
-  ```
+    ```
