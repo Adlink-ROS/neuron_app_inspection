@@ -28,5 +28,8 @@
     ros2 launch napp_navigation gazebo_navigation.launch.py    ```
     ```
 2. Set goal in Rviz2 and record position of robot.
+   After robot reached the goal, open the list left side with double click.
+   TF -> Frames -> base_link -> positoin , orientation 
+   Record X, Y in positoin and Z, W in orientation.
 
 3. modify xml file in "/neuron_app_inspection/src/BT_ros2/bt_xml/"
