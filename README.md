@@ -35,5 +35,7 @@
    
    
    Record X, Y in positoin and Z, W in orientation.
+   ![](readme_resource/inspect_rviz.png)
+
 
 3. modify xml file in "/neuron_app_inspection/src/BT_ros2/bt_xml/"
