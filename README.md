@@ -15,7 +15,7 @@
     ```
     ros2 launch napp_inspection gazebo_inspection.launch.py
     ```
-2. Launch Behavior Tree and camera snapshot.
+2. Launch Behavior Tree and camera snapshot. The robot will go through 3 checkpoint and take a photo.
     ```
     ros2 launch napp_inspection bt_inspection_snapshot.launch.py
     ```
