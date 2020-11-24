@@ -39,3 +39,5 @@
 
 
 3. modify xml file in "/neuron_app_inspection/src/BT_ros2/bt_xml/"
+   fill in the property with " X ; Y ; Z ; W " format
+   ![](readme_resource/set_checkpoint.png)
