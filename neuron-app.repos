@@ -2,7 +2,7 @@ repositories:
   neuronbot2:
     type: git
     url: https://github.com/Adlink-ROS/neuronbot2.git
-    version: 1e29cd32a81abc7fb8f06f3e1801cf0c0d49ae09
+    version: 9a4e3c49f7ed3d56e9646722f2ec99f169c2e07c
   rplidar_ros:
     type: git
     url: https://github.com/Adlink-ROS/rplidar_ros.git
@@ -19,3 +19,7 @@ repositories:
     type: git
     url: https://github.com/Adlink-ROS/image_pipeline.git
     version: ros2
+  realsense-ros:
+    type: git
+    url: https://github.com/Adlink-ROS/realsense-ros.git
+    version: 42df47ad3612e6a07e082c5e3913cf06b47bb83f
