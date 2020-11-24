@@ -17,10 +17,12 @@ def generate_launch_description():
     # Parameters
     open_rviz = LaunchConfiguration('open_rviz', default='True')
     map_path = LaunchConfiguration('map', default=nb2nav_map_dir+'/mememan.yaml')
+    use_camera = LaunchConfiguration('use_camera', default='top')
 
     neuron_app_bringup = GroupAction([
         IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(os.path.join(nb2_launch_dir, 'bringup_launch.py'))),
+            PythonLaunchDescriptionSource(os.path.join(nb2_launch_dir, 'bringup_launch.py')),
+            launch_arguments={'use_camera': use_camera}.items()),
 
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(os.path.join(nb2nav_launch_dir, 'bringup_launch.py')),
