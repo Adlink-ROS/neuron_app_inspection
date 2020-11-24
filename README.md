@@ -25,7 +25,7 @@
 
 1. Launch Navigation and gazebo.
     ```
-    ros2 launch napp_navigation gazebo_navigation.launch.py    ```
+    ros2 launch napp_inspection gazebo_inspection.launch.py
     ```
 2. Set goal in Rviz2 and record position of robot.
    After robot reached the goal, open the list left side with double click.
