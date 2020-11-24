@@ -31,7 +31,7 @@
    After robot reached the goal, open the list left side with double click.
    
    
-   ** TF -> Frames -> base_link -> positoin , orientation **
+   **TF -> Frames -> base_link -> positoin , orientation**
    
    
    Record X, Y in positoin and Z, W in orientation.
