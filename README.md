@@ -19,4 +19,4 @@
     ```
     ros2 launch napp_inspection bt_inspection_snapshot.launch.py
     ```
- ![](readme_resource/bt_demo.gif)
+    ![](readme_resource/bt_demo.gif)
