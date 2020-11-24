@@ -30,14 +30,13 @@
 2. Set goal in Rviz2 and record position of robot.
    After robot reached the goal, open the list left side with double click.
    
-   
    **TF -> Frames -> base_link -> positoin , orientation**
-   
    
    Record X, Y in positoin and Z, W in orientation.
    ![](readme_resource/inspect_rviz.png)
 
 
 3. modify xml file in "/neuron_app_inspection/src/BT_ros2/bt_xml/"
+
    fill in the property with " X ; Y ; Z ; W " format
    ![](readme_resource/set_checkpoint.png)
