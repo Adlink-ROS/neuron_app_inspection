@@ -21,7 +21,7 @@
     ```
     ![](readme_resource/bt_demo.gif)
     
-* if you want to change checkpoint of Inspection, follow instruction bellow:
+* ###if you want to change checkpoint of Inspection, follow instruction bellow:
 
 1. Launch Navigation and gazebo.
     ```
