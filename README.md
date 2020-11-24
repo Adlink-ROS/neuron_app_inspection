@@ -11,7 +11,7 @@
 
 # Usage
 
-1. Launch Navigation as well as Rviz with the Gazebo simulation.
+1. Launch Navigation as well as Rviz with the Gazebo simulation. It will open with default mememan map.
     ```
     ros2 launch napp_inspection gazebo_inspection.launch.py
     ```
