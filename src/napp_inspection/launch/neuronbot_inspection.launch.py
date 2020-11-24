@@ -5,6 +5,7 @@ from launch import LaunchDescription
 from launch.actions import (IncludeLaunchDescription, GroupAction)
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
+from launch_ros.actions.node import Node
 
 import pdb
 def generate_launch_description():
@@ -19,7 +20,7 @@ def generate_launch_description():
 
     neuron_app_bringup = GroupAction([
         IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(os.path.join(nb2_launch_dir, 'bringup.launch.py'))),
+            PythonLaunchDescriptionSource(os.path.join(nb2_launch_dir, 'bringup_launch.py'))),
 
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(os.path.join(nb2nav_launch_dir, 'bringup_launch.py')),
