@@ -20,3 +20,13 @@
     ros2 launch napp_inspection bt_inspection_snapshot.launch.py
     ```
     ![](readme_resource/bt_demo.gif)
+    
+*if you want to change checkpoint of Inspection, follow instruction bellow:
+
+1. Launch Navigation and gazebo.
+    ```
+    ros2 launch napp_inspection gazebo_inspection.launch.py
+    ```
+2. Set goal in Rviz2 and record position of robot.
+
+3. modify xml file in "/neuron_app_inspection/src/BT_ros2/bt_xml/"
