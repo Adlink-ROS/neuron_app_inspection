@@ -13,7 +13,7 @@
 
 ## Quickstart
 
-1. Click application in Neuron App to open workspace. **Click AUTO-inspction.**  It will build the resource at first time it's opened.
+1. Click application in Neuron App to open workspace. **Click Auto-inspction.**  It will build the resource at first time it's opened.
      ![](readme_resource/open_app.png)
    
 2-1. Click "packages" on the right side.
