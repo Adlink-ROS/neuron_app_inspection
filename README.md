@@ -30,6 +30,8 @@
 3. Launch Navigation and image_saver as well as Rviz, choose **ONE**  file to launch: 
 
     * Simulation with Gazebo. It will open with default mememan map: **Launch gazebo_inspection.launch.py**
+    
+    **NOTE : Before you deploy inspection on Neuronbot2, you shall first complete [SLAM](https://github.com/H-HChen/neuron_app_slam) and [modify checkpoints](#inspection-on-custom-checkpoint).**
 
     * Deploy on Neuronbot2: **Launch neuronbot_inspection.launch.py**
 
@@ -43,6 +45,7 @@
 
 1. Launch Navigation 
 
+    **NOTE: It will open with default map, pleaze [modify launch file](https://github.com/H-HChen/neuron_app_navigation#navigation-on-custom-map) if you want to navigate on custom map.**
     * Simulation with Gazebo: **Launch gazebo_inspection.launch.py**
     * Deploy on Neuronbot2: **Launch neuronbot_inspection.launch.py**
 
