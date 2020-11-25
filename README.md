@@ -24,14 +24,14 @@
    ![](readme_resource/launch_inspec.png)
      
 
-1. Launch Navigation as well as Rviz with the Gazebo simulation. It will open with default mememan map.
-    ```
-    ros2 launch napp_inspection gazebo_inspection.launch.py
-    ```
-2. Launch Behavior Tree and camera snapshot. The robot will go through 3 checkpoint and take a photo at each point.
-    ```
-    ros2 launch napp_inspection bt_inspection_snapshot.launch.py
-    ```
+3. Launch Navigation as well as Rviz with the Gazebo simulation. **Launch gazebo_inspection.launch.py**
+
+    It will open with default mememan map. 
+
+4. Launch Behavior Tree and camera snapshot. **Launch bt_inspection_snapshot.launch.py**
+
+    The robot will go through 3 checkpoint and take a photo at each point.
+
     ![](readme_resource/bt_demo.gif)
     
 * ### if you want to change checkpoint of Inspection, follow instruction bellow:
