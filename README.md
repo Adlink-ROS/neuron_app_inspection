@@ -63,4 +63,4 @@
    fill in the property with " X ; Y ; Z ; W " format
    ![](readme_resource/modify_point.png)
 
-6. Follow step3 and step4 in **Quickstart**.
+6. Follow Step3 and Step4 in **Quickstart**.
