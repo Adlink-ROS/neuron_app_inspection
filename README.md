@@ -28,7 +28,8 @@
     ros2 launch napp_inspection gazebo_inspection.launch.py
     ```
 2. Set goal in Rviz2 and record position of robot.
-   After robot reached the goal, open the list left side with double click.
+
+    After robot reached the goal, open the list left side with double click.
    
    **TF -> Frames -> base_link -> positoin , orientation**
    
