@@ -38,7 +38,9 @@
 4. Launch Behavior Tree and camera snapshot. **Launch bt_inspection_snapshot.launch.py**
 
     The robot will go through 3 checkpoint and take a photo at each point.
-
+    
+    The image files will be stored in workspace of neuron_app_inspection.
+    
     ![](readme_resource/bt_demo.gif)
     
  ## Inspection on custom checkpoint
