@@ -10,6 +10,19 @@
   - ROS 2 foxy
 
 # Usage
+1. Click application in Neuron App to open workspace. **Click SLAM.**  It will build the resource at first time it's opened.
+     ![](readme_resource/open_app.png)
+   
+2-1. Click "packages" on the right side.
+
+2-2. Open list by click "RESOURCES" -> "user-workspace" -> "napp_slam"
+     ![](readme_resource/click_resourse_slam.png)
+     
+
+***NOTE!!! Following instruction would need : Right click desired launch file and click "Run" -> "Run Launch File" as image bellow***
+
+   ![](readme_resource/launch_slam.png)
+     
 
 1. Launch Navigation as well as Rviz with the Gazebo simulation. It will open with default mememan map.
     ```
