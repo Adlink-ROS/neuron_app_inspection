@@ -60,11 +60,9 @@
 
 
 3. Click "Explorer" on the left side.
-4. Open xml file, choose **ONE**, depend on your task.
-
-    * For simulation: Click "src" -> "BT_ros2" -> "bt_xml" -> "bt_nav_mememan_snapshot.xml"
+4. Open xml file.
     
-    * For Neuronbot2: Click "src" -> "BT_ros2" -> "bt_xml" -> "neuronbot_inspection_snapshot.xml"
+    Click "src" -> "BT_ros2" -> "bt_xml" -> "neuronbot_inspection_snapshot.xml"
     
 5. Modify robot checkpoint at value in SetBlackboard.
 
