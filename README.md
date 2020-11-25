@@ -16,7 +16,7 @@
 2-1. Click "packages" on the right side.
 
 2-2. Open list by click "RESOURCES" -> "user-workspace" -> "napp_inspction"
-     ![](readme_resource/click_resourse_slam.png)
+     ![](readme_resource/click_resourse_inspec.png)
      
 
 ***NOTE!!! Following instruction would need : Right click desired launch file and click "Run" -> "Run Launch File" as image bellow***
