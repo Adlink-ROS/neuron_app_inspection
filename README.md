@@ -10,6 +10,9 @@
   - ROS 2 foxy
 
 # Usage
+
+## Quickstart
+
 1. Click application in Neuron App to open workspace. **Click AUTO-inspction.**  It will build the resource at first time it's opened.
      ![](readme_resource/open_app.png)
    
@@ -24,9 +27,11 @@
    ![](readme_resource/launch_inspec.png)
      
 
-3. Launch Navigation as well as Rviz with the Gazebo simulation. **Launch gazebo_inspection.launch.py**
+3. Launch Navigation as well as Rviz, choose **ONE**  file to launch: 
 
-    It will open with default mememan map. 
+    * Simulation with the Gazebo. It will open with default mememan map: **Launch gazebo_inspection.launch.py**
+
+    * Deploy on Neuronbot2 : **Launch neuronbot_inspection.launch.py**
 
 4. Launch Behavior Tree and camera snapshot. **Launch bt_inspection_snapshot.launch.py**
 
@@ -34,7 +39,7 @@
 
     ![](readme_resource/bt_demo.gif)
     
-* ### If you want to change checkpoint of Inspection, follow instruction bellow:
+ ## Inspection on custom checkpoint
 
 1. Launch Navigation and gazebo. **Launch gazebo_inspection.launch.py**
 
