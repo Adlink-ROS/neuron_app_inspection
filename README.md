@@ -70,5 +70,7 @@
 
    fill in the property with " X ; Y ; Z ; W " format
    ![](readme_resource/modify_point.png)
-
+   
+   **NOTE: If you want to change xml file that launch file include, please modify file name in bt_inspection_snapshot.launch.py.**
+   
 6. Follow Step3 and Step4 in **Quickstart**.
