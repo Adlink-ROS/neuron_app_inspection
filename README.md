@@ -10,12 +10,12 @@
   - ROS 2 foxy
 
 # Usage
-1. Click application in Neuron App to open workspace. **Click SLAM.**  It will build the resource at first time it's opened.
+1. Click application in Neuron App to open workspace. **Click AUTO-inspction.**  It will build the resource at first time it's opened.
      ![](readme_resource/open_app.png)
    
 2-1. Click "packages" on the right side.
 
-2-2. Open list by click "RESOURCES" -> "user-workspace" -> "napp_slam"
+2-2. Open list by click "RESOURCES" -> "user-workspace" -> "napp_inspction"
      ![](readme_resource/click_resourse_slam.png)
      
 
