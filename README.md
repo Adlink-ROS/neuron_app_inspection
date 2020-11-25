@@ -44,11 +44,13 @@
    
    **TF -> Frames -> base_link -> positoin , orientation**
    
-   Record X, Y in positoin and Z, W in orientation.
+   Record X, Y in positoin and Z, W in orientation. Then you shall turn off Navigation.
    ![](readme_resource/inspect_rviz.png)
 
 
-3. modify xml file in "/neuron_app_inspection/src/BT_ros2/bt_xml/"
+4. Click "Explorer" on the left side.
+5. Click "src" -> "BT_ros2" -> "bt_xml" -> "bt_nav_mememan_snapshot.xml"
+6. Modify robot checkpoint at value in SetBlackboard.
 
    fill in the property with " X ; Y ; Z ; W " format
-   ![](readme_resource/set_checkpoint.png)
+   ![](readme_resource/modify_point.png)
