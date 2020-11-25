@@ -21,7 +21,7 @@
 
 ***NOTE!!! Following instruction would need : Right click desired launch file and click "Run" -> "Run Launch File" as image bellow***
 
-   ![](readme_resource/launch_slam.png)
+   ![](readme_resource/launch_inspec.png)
      
 
 1. Launch Navigation as well as Rviz with the Gazebo simulation. It will open with default mememan map.
