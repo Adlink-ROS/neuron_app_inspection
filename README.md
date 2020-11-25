@@ -55,7 +55,7 @@
    
    **TF -> Frames -> base_link -> positoin , orientation**
    
-   Record X, Y in positoin and Z, W in orientation. Then you shall turn off Navigation.
+   Record X, Y in positoin and Z, W in orientation.
    ![](readme_resource/inspect_rviz.png)
 
 
