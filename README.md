@@ -31,7 +31,7 @@
 
     * Simulation with the Gazebo. It will open with default mememan map: **Launch gazebo_inspection.launch.py**
 
-    * Deploy on Neuronbot2 : **Launch neuronbot_inspection.launch.py**
+    * Deploy on Neuronbot2: **Launch neuronbot_inspection.launch.py**
 
 4. Launch Behavior Tree and camera snapshot. **Launch bt_inspection_snapshot.launch.py**
 
