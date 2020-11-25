@@ -29,7 +29,7 @@
 
 3. Launch Navigation and image_saver as well as Rviz, choose **ONE**  file to launch: 
 
-    * Simulation with the Gazebo. It will open with default mememan map: **Launch gazebo_inspection.launch.py**
+    * Simulation with Gazebo. It will open with default mememan map: **Launch gazebo_inspection.launch.py**
 
     * Deploy on Neuronbot2: **Launch neuronbot_inspection.launch.py**
 
@@ -43,7 +43,7 @@
 
 1. Launch Navigation 
 
-    * Simulation with gazebo: **Launch gazebo_inspection.launch.py**
+    * Simulation with Gazebo: **Launch gazebo_inspection.launch.py**
     * Deploy on Neuronbot2: **Launch neuronbot_inspection.launch.py**
 
 2. Set goal in Rviz2 and record position of robot.
