@@ -60,15 +60,19 @@
 
 
 3. Click "Explorer" on the left side.
+
 4. Open xml file.
     
     Click "src" -> "BT_ros2" -> "bt_xml" -> "neuronbot_inspection_snapshot.xml"
+
     
 5. Modify robot checkpoint at value in SetBlackboard.
 
    fill in the property with " X ; Y ; Z ; W " format
    ![](readme_resource/modify_point.png)
+
    
    **NOTE: If you want to change xml file that launch file include, please modify file name in bt_inspection_snapshot.launch.py.**
    
+
 6. Follow Step3 and Step4 in **Quickstart**.
