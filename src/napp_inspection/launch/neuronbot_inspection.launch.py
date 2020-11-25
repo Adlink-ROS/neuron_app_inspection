@@ -8,7 +8,6 @@ from launch.substitutions import LaunchConfiguration
 from launch_ros.actions.node import Node
 from pathlib import Path
 
-import pdb
 def generate_launch_description():
     # Path
     nb2_launch_dir = os.path.join(get_package_share_directory('neuronbot2_bringup'), 'launch')
@@ -39,7 +38,8 @@ def generate_launch_description():
         executable='image_saver',
         remappings=[('image', 'color/image_raw')],
         parameters=[{
-            'save_all_image': False
+            'save_all_image': False,
+            'filename_format': str(Path.home())+"/neuron_app_inspection/your_photo%04d.%s"
             }],
         output='screen'
     )

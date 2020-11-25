@@ -6,8 +6,8 @@ from launch.actions import (IncludeLaunchDescription, GroupAction)
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions.node import Node
+from pathlib import Path
 
-import pdb
 def generate_launch_description():
     # Path
     gazebo_launch_dir = os.path.join(get_package_share_directory('neuronbot2_gazebo'), 'launch')
@@ -43,7 +43,8 @@ def generate_launch_description():
         remappings=[('image', 'rgb_camera/image_raw')],
         parameters=[{
             'use_sim_time': True,
-            'save_all_image': False
+            'save_all_image': False,
+            'filename_format': str(Path.home())+"/neuron_app_inspection/your_photo%04d.%s"
             }],
         output='screen'
     )
