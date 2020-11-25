@@ -45,7 +45,7 @@
 
 1. Launch Navigation 
 
-    **NOTE: It will open with default map, pleaze [modify launch file](https://github.com/H-HChen/neuron_app_navigation#navigation-on-custom-map) if you want to navigate on custom map.**
+    **NOTE: It will open with default map, please [modify launch file](https://github.com/H-HChen/neuron_app_navigation#navigation-on-custom-map) if you want to navigate on custom map.**
     * Simulation with Gazebo: **Launch gazebo_inspection.launch.py**
     * Deploy on Neuronbot2: **Launch neuronbot_inspection.launch.py**
 
