@@ -7,3 +7,4 @@ log
 src/*
 !src/napp_*
 your_photo*
+__pycache__
