@@ -2,6 +2,9 @@ build
 install
 log
 .*.swp
+.theia
+.cache
 src/*
 !src/napp_*
 your_photo*
+__pycache__
