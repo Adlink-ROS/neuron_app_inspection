@@ -13,6 +13,14 @@
 
 ## Quickstart
 
+0. This package needs Intel realsense package. Please install it if you haven't installed before.
+
+    ```bash
+    sudo apt-key adv --keyserver keys.gnupg.net --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE || sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE
+    sudo add-apt-repository 'deb http://realsense-hw-public.s3.amazonaws.com/Debian/apt-repo focal main' -u
+    sudo apt-get install librealsense2-dkms librealsense2-utils librealsense2-dev -y
+    ````
+
 1. Click application in Neuron App to open workspace. **Click Auto-inspection.**  It will build the resource at first time it's opened.
      ![](readme_resource/open_app.png)
    
