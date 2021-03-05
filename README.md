@@ -86,3 +86,8 @@
    
 
 6. Follow Step3 and Step4 in **Quickstart**.
+
+# Troubleshooting
+
+If you face some problems while launching NeuronBot simulation, try to terminate the task and retry again.
+There might be some processes still running and cause the issue.
