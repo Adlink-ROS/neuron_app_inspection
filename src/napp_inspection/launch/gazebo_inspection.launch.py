@@ -26,7 +26,8 @@ def generate_launch_description():
     gazebo_world_launch = IncludeLaunchDescription(
                               PythonLaunchDescriptionSource(os.path.join(gazebo_launch_dir, 'neuronbot2_world.launch.py')),
                               launch_arguments={'use_sim_time': use_sim_time,
-                                                'world_model': world_model}.items())
+                                                'world_model': world_model,
+                                                'use_camera': use_camera}.items())
 
     navigation_launch = IncludeLaunchDescription(
                             PythonLaunchDescriptionSource(os.path.join(nb2nav_launch_dir, 'bringup_launch.py')),
@@ -42,7 +43,7 @@ def generate_launch_description():
     image_saver = Node(
         package='image_view',
         executable='image_saver',
-        remappings=[('image', 'rgb_camera/image_raw')],
+        remappings=[('image', 'camera_color_frame/image_raw')],
         parameters=[{
             'use_sim_time': True,
             'save_all_image': False,
