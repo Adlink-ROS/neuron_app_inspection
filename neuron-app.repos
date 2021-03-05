@@ -2,7 +2,7 @@ repositories:
   neuronbot2:
     type: git
     url: https://github.com/Adlink-ROS/neuronbot2.git
-    version: 9a4e3c49f7ed3d56e9646722f2ec99f169c2e07c
+    version: a1d6eb7403377eeea19eb99d8b6bd06d3b39b4ed
   rplidar_ros:
     type: git
     url: https://github.com/Adlink-ROS/rplidar_ros.git
@@ -14,7 +14,7 @@ repositories:
   BT_ros2:
     type: git
     url: https://github.com/Adlink-ROS/BT_ros2.git
-    version: f0925fb5033ba395ba073bfd9c30a57262934d09
+    version: 540fc7c45f568c398d03c8709bdb22e722b184c5
   image_pipeline:
     type: git
     url: https://github.com/Adlink-ROS/image_pipeline.git
@@ -26,4 +26,4 @@ repositories:
   nav2_behavior_tree:
     type: git
     url: https://github.com/Adlink-ROS/nav2_behavior_tree.git
-    version: adlink-patch
+    version: df7b3bf71eba930efa149d99ab4505d5595c1430
