@@ -13,7 +13,9 @@
 
 ## Quickstart
 
-0. This package needs Intel realsense package. Please install it if you haven't installed before.
+**Please enter workspace of Auto-inspection in Neuron IDE before you start Neuron App.**
+
+1. This package needs Intel realsense package. Please install it if you haven't installed before.
 
     ```bash
     sudo apt-key adv --keyserver keys.gnupg.net --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE || sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE
@@ -21,12 +23,9 @@
     sudo apt-get install librealsense2-dkms librealsense2-utils librealsense2-dev -y
     ````
 
-1. Click application in Neuron App to open workspace. **Click Auto-inspection.**  It will build the resource at first time it's opened.
-     ![](readme_resource/open_app.png)
-   
-2-1. Click "packages" on the right side.
+2-1. Click "Packages:Resources" on the right side.
 
-2-2. Open list by click "RESOURCES" -> "user-workspace" -> "napp_inspction"
+2-2. Open list by clicking "user-workspace" -> "napp_inspction"
      ![](readme_resource/click_resource_inspec.png)
      
 
@@ -39,13 +38,13 @@
 
     * Simulation with Gazebo. It will open with default mememan map: **Launch gazebo_inspection.launch.py**
     
-    **NOTE : Before you deploy inspection on Neuronbot2, you shall first complete [SLAM](https://github.com/H-HChen/neuron_app_slam) and [modify checkpoints](#inspection-on-custom-checkpoint).**
+    **NOTE : Before you deploy inspection on Neuronbot2, you shall first complete [SLAM](https://github.com/Adlink-ROS/neuron_app_slam) and [modify checkpoints](#inspection-on-custom-checkpoint).**
 
     * Deploy on Neuronbot2: **Launch neuronbot_inspection.launch.py**
 
 4. Launch Behavior Tree and camera snapshot. **Launch bt_inspection_snapshot.launch.py**
 
-    The robot will go through 3 checkpoint and take a photo at each point.
+    The robot will go through 2 checkpoint and take a photo at each point.
     
     The image files will be stored in workspace of neuron_app_inspection.
     
@@ -55,7 +54,7 @@
 
 1. Launch Navigation 
 
-    **NOTE: It will open with default map, please [modify launch file](https://github.com/H-HChen/neuron_app_navigation#navigation-on-custom-map) if you want to navigate on custom map.**
+    **NOTE: It will open with default map, please [modify launch file](https://github.com/Adlink-ROS/neuron_app_navigation#navigation-on-custom-map) if you want to navigate on custom map.**
     * Simulation with Gazebo: **Launch gazebo_inspection.launch.py**
     * Deploy on Neuronbot2: **Launch neuronbot_inspection.launch.py**
 
@@ -85,7 +84,7 @@
    **NOTE: If you want to change xml file that launch file include, please modify file name in bt_inspection_snapshot.launch.py.**
    
 
-6. Follow Step3 and Step4 in **Quickstart**.
+6. Follow Step3 and Step4 in **[Quickstart](#Quickstart)**.
 
 # Troubleshooting
 
