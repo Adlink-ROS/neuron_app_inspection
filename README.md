@@ -15,17 +15,9 @@
 
 **Please enter workspace of Auto-inspection in Neuron IDE before you start Neuron App.**
 
-1. This package needs Intel realsense package. Please install it if you haven't installed before.
+1. Click "Packages:Resources" on the right side.
 
-    ```bash
-    sudo apt-key adv --keyserver keys.gnupg.net --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE || sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE
-    sudo add-apt-repository 'deb http://realsense-hw-public.s3.amazonaws.com/Debian/apt-repo focal main' -u
-    sudo apt-get install librealsense2-dkms librealsense2-utils librealsense2-dev -y
-    ````
-
-2-1. Click "Packages:Resources" on the right side.
-
-2-2. Open list by clicking "user-workspace" -> "napp_inspction"
+2. Open list by clicking "user-workspace" -> "napp_inspction"
      ![](readme_resource/click_resource_inspec.png)
      
 
@@ -38,7 +30,7 @@
 
     * Simulation with Gazebo. It will open with default mememan map: **Launch gazebo_inspection.launch.py**
     
-    **NOTE : Before you deploy inspection on Neuronbot2, you shall first complete [SLAM](https://github.com/Adlink-ROS/neuron_app_slam) and [modify checkpoints](#inspection-on-custom-checkpoint).**
+    **NOTE : Before you deploy inspection on Neuronbot2, you shall first complete [prerequisite](#Prerequisite-for-deploying-on-NeuronBot2), [SLAM](https://github.com/Adlink-ROS/neuron_app_slam) and [modify checkpoints](#inspection-on-custom-checkpoint).**
 
     * Deploy on Neuronbot2: **Launch neuronbot_inspection.launch.py**
 
@@ -85,6 +77,21 @@
    
 
 6. Follow Step3 and Step4 in **[Quickstart](#Quickstart)**.
+
+## Prerequisite for deploying on NeuronBot2
+
+If you want to deploy auto-inspection with NeuronBot2 and Realsense, please follow instuction below.
+
+1. Remove annotation of **realsense-ros** in **neuron-app.repos**
+2. Install librealsense2 if you haven't installed before.
+
+    ```bash
+    sudo apt-key adv --keyserver keys.gnupg.net --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE || sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE
+    sudo add-apt-repository 'deb http://realsense-hw-public.s3.amazonaws.com/Debian/apt-repo focal main' -u
+    sudo apt-get install librealsense2-dkms librealsense2-utils librealsense2-dev -y
+    ````
+3. Click **download sourse code** in **ROS commands**
+4. Build packages in workspace
 
 # Troubleshooting
 
